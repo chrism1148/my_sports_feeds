@@ -7,7 +7,7 @@ from pandas.io.json import json_normalize #package for flattening json in pandas
 
 
 msf = MySportsFeeds(version='2.0')
-msf.authenticate("5ede2946-0fd0-403c-8751-a0ae46", "MYSPORTSFEEDS")
+msf.authenticate("API KEY", "MYSPORTSFEEDS")
 
 
 # Pull JSON from My Sports Feeds API
