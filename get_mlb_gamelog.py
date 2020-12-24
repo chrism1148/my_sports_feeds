@@ -3,7 +3,7 @@ import datetime
 
 
 msf = MySportsFeeds(version='2.1',verbose=True)
-msf.authenticate("a9858885-7318-488c-b0f0-476799", "MYSPORTSFEEDS")
+msf.authenticate("API KEY", "MYSPORTSFEEDS")
 
 
 # Pull CSV from My Sports Feeds API
